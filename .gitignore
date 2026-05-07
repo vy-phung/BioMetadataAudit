@@ -1,0 +1,69 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS noise ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Credentials / secrets ─────────────────────────────────────────────────────
+secrets/
+credentials/
+service_account*.json
+gcp_creds*.json
+*creds*.json
+*credentials*.json
+
+# ── Large model / binary files (use HF Spaces LFS for these, not GitHub) ──────
+*.model
+*.bin
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.parquet
+*.npy
+*.npz
+NER/word2Vec/testModel/
+NER/word2Vec/*.model
+
+# ── Outputs ───────────────────────────────────────────────────────────────────
+output.json
+output.txt
+*.log
+
+# ── Temporary / test artefacts ────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
